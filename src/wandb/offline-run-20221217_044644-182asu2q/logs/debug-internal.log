@@ -1,0 +1,135 @@
+2022-12-17 04:46:44,404 INFO    StreamThr :10912 [internal.py:wandb_internal():87] W&B internal server running at pid: 10912, started at: 2022-12-17 04:46:44.404616
+2022-12-17 04:46:44,404 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: status
+2022-12-17 04:46:44,404 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: status
+2022-12-17 04:46:44,553 INFO    WriterThread:10912 [datastore.py:open_for_write():75] open: D:\Courses\ML\flatland-v2.2.1\flatland-v2.2.1\start\src\wandb\offline-run-20221217_044644-182asu2q\run-182asu2q.wandb
+2022-12-17 04:46:44,570 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: run_start
+2022-12-17 04:46:45,742 DEBUG   HandlerThread:10912 [system_info.py:__init__():31] System info init
+2022-12-17 04:46:45,742 DEBUG   HandlerThread:10912 [system_info.py:__init__():46] System info init done
+2022-12-17 04:46:45,742 INFO    HandlerThread:10912 [system_monitor.py:start():150] Starting system monitor
+2022-12-17 04:46:45,742 INFO    SystemMonitor:10912 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-12-17 04:46:45,742 INFO    HandlerThread:10912 [system_monitor.py:probe():171] Collecting system info
+2022-12-17 04:46:45,742 INFO    SystemMonitor:10912 [interfaces.py:start():168] Started cpu
+2022-12-17 04:46:45,742 INFO    SystemMonitor:10912 [interfaces.py:start():168] Started disk
+2022-12-17 04:46:45,742 INFO    SystemMonitor:10912 [interfaces.py:start():168] Started gpu
+2022-12-17 04:46:45,757 INFO    SystemMonitor:10912 [interfaces.py:start():168] Started memory
+2022-12-17 04:46:45,773 DEBUG   HandlerThread:10912 [system_info.py:probe():195] Probing system
+2022-12-17 04:46:45,773 INFO    SystemMonitor:10912 [interfaces.py:start():168] Started network
+2022-12-17 04:46:45,773 DEBUG   HandlerThread:10912 [git.py:repo():40] git repository is invalid
+2022-12-17 04:46:45,773 DEBUG   HandlerThread:10912 [system_info.py:probe():241] Probing system done
+2022-12-17 04:46:45,773 DEBUG   HandlerThread:10912 [system_monitor.py:probe():180] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.15', 'heartbeatAt': '2022-12-17T09:46:45.773471', 'startedAt': '2022-12-17T09:46:44.356447', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'D:\\Courses\\ML\\flatland-v2.2.1\\flatland-v2.2.1\\start\\src\\train.py', 'codePath': 'train.py', 'host': 'LAPTOP-PBE0EKS8', 'username': 'Yaswanth', 'executable': 'C:\\Users\\Yaswanth\\anaconda3\\envs\\flatland-rl2.2\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 1001.0, 'min': 0.0, 'max': 2304.0}, 'cpu_freq_per_core': [{'current': 1001.0, 'min': 0.0, 'max': 2304.0}], 'disk': {'total': 399.99901962280273, 'used': 23.123374938964844}, 'gpu': 'GeForce RTX 3070 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'GeForce RTX 3070 Laptop GPU', 'memory_total': 8589934592}], 'memory': {'total': 15.768852233886719}}
+2022-12-17 04:46:45,773 INFO    HandlerThread:10912 [system_monitor.py:probe():181] Finished collecting system info
+2022-12-17 04:46:45,773 INFO    HandlerThread:10912 [system_monitor.py:probe():184] Publishing system info
+2022-12-17 04:46:45,773 DEBUG   HandlerThread:10912 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-12-17 04:46:45,773 DEBUG   HandlerThread:10912 [system_info.py:_save_pip():67] Saving pip packages done
+2022-12-17 04:46:45,773 DEBUG   HandlerThread:10912 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-12-17 04:46:50,902 DEBUG   HandlerThread:10912 [system_info.py:_save_conda():86] Saving conda packages done
+2022-12-17 04:46:50,902 INFO    HandlerThread:10912 [system_monitor.py:probe():186] Finished publishing system info
+2022-12-17 04:46:51,031 INFO    HandlerThread:10912 [handler.py:handle_tbrecord():724] handling tbrecord: tbrecord {
+  log_dir: "runs\\Dec17_04-46-49_LAPTOP-PBE0EKS8"
+  save: true
+  root_dir: "runs\\Dec17_04-46-49_LAPTOP-PBE0EKS8"
+}
+control {
+  relay_id: "c2e87730fe264501912ccac82e81f320"
+}
+_info {
+  stream_id: "182asu2q"
+}
+
+2022-12-17 04:46:51,036 DEBUG   HandlerThread:10912 [config_util.py:dict_from_config_file():100] no default config file found in config-defaults.yaml
+2022-12-17 04:46:51,084 DEBUG   Thread-15 :10912 [tb_watcher.py:_process_events():275] Encountered tensorboard directory watcher error: [WinError 1314] A required privilege is not held by the client: 'D:\\Courses\\ML\\flatland-v2.2.1\\flatland-v2.2.1\\start\\src\\runs\\Dec17_04-46-49_LAPTOP-PBE0EKS8\\events.out.tfevents.1671270409.LAPTOP-PBE0EKS8.2508.0' -> 'D:\\Courses\\ML\\flatland-v2.2.1\\flatland-v2.2.1\\start\\src\\wandb\\offline-run-20221217_044644-182asu2q\\files\\events.out.tfevents.1671270409.LAPTOP-PBE0EKS8.2508.0'
+2022-12-17 04:47:09,165 DEBUG   SenderThread:10912 [sender.py:send():303] send: exit
+2022-12-17 04:47:09,165 INFO    SenderThread:10912 [sender.py:send_exit():442] handling exit code: 1
+2022-12-17 04:47:09,165 INFO    SenderThread:10912 [sender.py:send_exit():444] handling runtime: 24
+2022-12-17 04:47:09,165 INFO    SenderThread:10912 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-17 04:47:09,165 INFO    SenderThread:10912 [sender.py:send_exit():450] send defer
+2022-12-17 04:47:09,172 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:09,172 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 0
+2022-12-17 04:47:09,172 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:09,172 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-12-17 04:47:09,172 INFO    SenderThread:10912 [sender.py:transition_state():463] send defer: 1
+2022-12-17 04:47:09,172 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:09,172 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 1
+2022-12-17 04:47:09,172 INFO    HandlerThread:10912 [system_monitor.py:finish():160] Stopping system monitor
+2022-12-17 04:47:09,172 DEBUG   SystemMonitor:10912 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-12-17 04:47:09,172 DEBUG   SystemMonitor:10912 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-12-17 04:47:09,172 DEBUG   SystemMonitor:10912 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-12-17 04:47:09,184 INFO    HandlerThread:10912 [interfaces.py:finish():175] Joined cpu
+2022-12-17 04:47:09,184 INFO    HandlerThread:10912 [interfaces.py:finish():175] Joined disk
+2022-12-17 04:47:09,218 INFO    HandlerThread:10912 [interfaces.py:finish():175] Joined gpu
+2022-12-17 04:47:09,218 INFO    HandlerThread:10912 [interfaces.py:finish():175] Joined memory
+2022-12-17 04:47:09,218 INFO    HandlerThread:10912 [interfaces.py:finish():175] Joined network
+2022-12-17 04:47:09,218 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:09,218 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-12-17 04:47:09,218 INFO    SenderThread:10912 [sender.py:transition_state():463] send defer: 2
+2022-12-17 04:47:09,218 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:09,218 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 2
+2022-12-17 04:47:09,218 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:09,218 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-12-17 04:47:09,218 INFO    SenderThread:10912 [sender.py:transition_state():463] send defer: 3
+2022-12-17 04:47:09,218 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:09,218 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 3
+2022-12-17 04:47:16,285 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:transition_state():463] send defer: 4
+2022-12-17 04:47:16,286 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-17 04:47:16,286 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: keepalive
+2022-12-17 04:47:16,286 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: poll_exit
+2022-12-17 04:47:16,286 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:16,286 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 4
+2022-12-17 04:47:16,286 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:transition_state():463] send defer: 5
+2022-12-17 04:47:16,286 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:16,286 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 5
+2022-12-17 04:47:16,286 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:transition_state():463] send defer: 6
+2022-12-17 04:47:16,286 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:16,286 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 6
+2022-12-17 04:47:16,286 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:transition_state():463] send defer: 7
+2022-12-17 04:47:16,286 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:16,286 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 7
+2022-12-17 04:47:16,286 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:transition_state():463] send defer: 8
+2022-12-17 04:47:16,286 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:16,286 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 8
+2022-12-17 04:47:16,286 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:transition_state():463] send defer: 9
+2022-12-17 04:47:16,286 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:16,286 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 9
+2022-12-17 04:47:16,286 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:transition_state():463] send defer: 10
+2022-12-17 04:47:16,286 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:16,286 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 10
+2022-12-17 04:47:16,286 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-12-17 04:47:16,286 INFO    SenderThread:10912 [sender.py:transition_state():463] send defer: 11
+2022-12-17 04:47:16,286 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:16,286 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 11
+2022-12-17 04:47:16,286 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:16,296 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-12-17 04:47:16,296 INFO    SenderThread:10912 [sender.py:transition_state():463] send defer: 12
+2022-12-17 04:47:16,297 DEBUG   SenderThread:10912 [sender.py:send():303] send: final
+2022-12-17 04:47:16,298 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: defer
+2022-12-17 04:47:16,298 INFO    HandlerThread:10912 [handler.py:handle_request_defer():162] handle defer: 12
+2022-12-17 04:47:16,298 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: defer
+2022-12-17 04:47:16,298 INFO    SenderThread:10912 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-12-17 04:47:16,298 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-17 04:47:16,298 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: server_info
+2022-12-17 04:47:16,298 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: poll_exit
+2022-12-17 04:47:16,298 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: get_summary
+2022-12-17 04:47:16,298 DEBUG   SenderThread:10912 [sender.py:send_request():317] send_request: server_info
+2022-12-17 04:47:16,303 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: sampled_history
+2022-12-17 04:47:16,305 INFO    MainThread:10912 [wandb_run.py:_footer_history_summary_info():3408] rendering history
+2022-12-17 04:47:16,305 INFO    MainThread:10912 [wandb_run.py:_footer_history_summary_info():3440] rendering summary
+2022-12-17 04:47:16,305 DEBUG   HandlerThread:10912 [handler.py:handle_request():139] handle_request: shutdown
+2022-12-17 04:47:16,305 INFO    HandlerThread:10912 [handler.py:finish():814] shutting down handler
+2022-12-17 04:47:17,305 INFO    SenderThread:10912 [sender.py:finish():1331] shutting down sender
+2022-12-17 04:47:17,305 INFO    WriterThread:10912 [datastore.py:close():279] close: D:\Courses\ML\flatland-v2.2.1\flatland-v2.2.1\start\src\wandb\offline-run-20221217_044644-182asu2q\run-182asu2q.wandb
+2022-12-17 04:47:17,308 INFO    MainThread:10912 [internal.py:handle_exit():77] Internal process exited

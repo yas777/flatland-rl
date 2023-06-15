@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.15",
+    "heartbeatAt": "2022-12-17T09:46:45.773471",
+    "startedAt": "2022-12-17T09:46:44.356447",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\Courses\\ML\\flatland-v2.2.1\\flatland-v2.2.1\\start\\src\\train.py",
+    "codePath": "train.py",
+    "host": "LAPTOP-PBE0EKS8",
+    "username": "Yaswanth",
+    "executable": "C:\\Users\\Yaswanth\\anaconda3\\envs\\flatland-rl2.2\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1001.0,
+        "min": 0.0,
+        "max": 2304.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1001.0,
+            "min": 0.0,
+            "max": 2304.0
+        }
+    ],
+    "disk": {
+        "total": 399.99901962280273,
+        "used": 23.123374938964844
+    },
+    "gpu": "GeForce RTX 3070 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "GeForce RTX 3070 Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.768852233886719
+    }
+}
